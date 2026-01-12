@@ -391,9 +391,9 @@ PWDEBUG=1 python checkin.py
 ## 🔒 安全建议
 
 1. **不要提交敏感信息**：
-   - 将 `config.json` 添加到 `.gitignore`
-   - 使用环境变量存储密码
-   - 考虑使用加密存储凭证
+  - 将 `config.json` 添加到 `.gitignore`
+  - 使用环境变量存储密码
+  - 考虑使用加密存储凭证
 
 2. **定期更新依赖**：
 ```bash
